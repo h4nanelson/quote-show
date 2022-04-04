@@ -1,0 +1,30 @@
+/* Stylesheet */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+  background-size: cover;
+}
+
+/* Apply Font */
+main {
+  font-family:'Lobster', cursive;
+  font-size: 5vmin;
+  text-align: center;
+  color: #d96992;
+  
+  /* Add contrast to text */
+  background-color: rgba(245, 39, 145, 0.16);
+  border-radius: 20px;
+}
